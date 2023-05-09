@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'AvenirLTStd35Light';
+    src: url('/assets/fonts/AvenirLTStd/AvenirLTStd/AvenirLTStd35Light.otf') format('otf');
+}
+
+#search{
+    border-right: 1px solid black;
+    
+}
+
+input{
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid red !important;
+    font-size: 25px;
+}
+/* input:focus {
+    outline:none !important;
+} */
+
+nav .active{
+    color: red !important;
+}
+
+.nav .nav-link:hover{
+    color: red !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    transition: .2s;
+    border-bottom: 2px solid red;
+}
+
+@media only screen and (max-width: 762px) {
+    
+    #section_globale{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+}
+
